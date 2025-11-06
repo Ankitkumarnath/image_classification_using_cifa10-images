@@ -1,6 +1,5 @@
-streamlit
-tensorflow==2.16.1
-numpy
-pillow
-matplotlib
-pandas
+streamlit==1.51.0
+tensorflow==2.20.0
+numpy>=1.26,<3
+pillow>=10
+opencv-python-headless>=4.10
