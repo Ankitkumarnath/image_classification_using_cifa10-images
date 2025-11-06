@@ -1,0 +1,67 @@
+# =====================================
+# Python & Streamlit Project .gitignore
+# =====================================
+
+# --- Python cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+.env/
+ENV/
+.ipynb_checkpoints/
+
+# --- Model & large files ---
+models/*.h5
+models/*.keras
+models/*.ckpt
+models/checkpoints/
+*.tflite
+*.onnx
+*.pb
+
+# --- Datasets & outputs ---
+data/
+datasets/
+output_images/
+outputs/
+*.csv
+*.npz
+*.npy
+
+# --- Logs & temporary files ---
+*.log
+logs/
+wandb/
+mlruns/
+*.tmp
+*.bak
+
+# --- Streamlit specific ---
+.streamlit/
+cache/
+**/.streamlit/
+**/cache/
+
+# --- Jupyter Notebook Checkpoints ---
+*.ipynb_checkpoints
+.ipynb_checkpoints/
+
+# --- System files ---
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# --- IDE/project files ---
+.vscode/
+.idea/
+*.code-workspace
+
+# --- OS generated files ---
+ehthumbs.db
+Desktop.ini
